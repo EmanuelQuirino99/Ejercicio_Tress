@@ -1,0 +1,25 @@
+@startuml
+class  Main {
+    - String mensaje
+    + toString()
+}
+class NumerosOrdenados{
+    - int a
+    - int b
+    - int c
+    + NumerosOrdenados()
+    + NumerosOrdenados( int a ...)
+
+    + getA()
+    + setA()
+    + getB()
+    + setB()
+    + getC()
+    + setC()
+    + toString()
+
+    }
+
+    Main <|---NumerosOrdenados
+
+@enduml
